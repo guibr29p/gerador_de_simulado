@@ -1,12 +1,36 @@
 from PyPDF2 import PdfReader
 from typing import IO
+from pathlib import Path
 
 
-def extrect_text(file: IO[bytes]) -> str:
-    reader = PdfReader(file)
+def opeFile(caminho) -> IO[bytes]:
+    with open(caminho, "fb") as file:
+        return file
+
+
+def extrect_text(caminho):
     text: str = ""
-    for pages in reader.pages:
-        text += pages.extract_text() or ""
+    file = Path(caminho)
 
-    return text
+    try:
+        if file.is_file():
+            reader = PdfReader(file)
+            
+            for pages in reader.pages:
+                text += pages.extract_text() or ""
+        
+        else:
+            if file.exists() and file.is_dir():
 
+                for file in list(file.iterdir()):
+                    reader = PdfReader(file)
+
+                    for pages in reader.pages:
+                        text += pages.extract_text() or ""
+                                
+    except FileExistsError:
+        print("arquibo não encotrado")
+    except Exception as e: 
+        print(f"Erro de leitura de arquivo: {e.args}") 
+
+    return text or ""
