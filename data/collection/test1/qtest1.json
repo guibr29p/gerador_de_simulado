@@ -1,0 +1,16 @@
+[
+    {
+        "enunciado": "Qual é a capital da França?",
+        "resposta1": {"texto": "Londres", "correta": false},
+        "resposta2": {"texto": "Berlim", "correta": false},
+        "resposta3": {"texto": "Paris", "correta": true},
+        "resposta4": {"texto": "Roma", "correta": false}
+    },
+    {
+        "enunciado": "Qual é o maior planeta do sistema solar?",
+        "resposta1": {"texto": "Terra", "correta": false},
+        "resposta2": {"texto": "Júpiter", "correta": true},
+        "resposta3": {"texto": "Saturno", "correta": false},
+        "resposta4": {"texto": "Marte", "correta": false}
+    }
+]

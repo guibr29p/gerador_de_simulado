@@ -22,11 +22,11 @@ def extrect_text(caminho):
         else:
             if file.exists() and file.is_dir():
 
-                for file in list(file.iterdir()):
-                    reader = PdfReader(file)
-
+                for File in list(file.iterdir()):
+                    reader = PdfReader(File)
                     for pages in reader.pages:
                         text += pages.extract_text() or ""
+                
                                 
     except FileExistsError:
         print("arquibo não encotrado")
