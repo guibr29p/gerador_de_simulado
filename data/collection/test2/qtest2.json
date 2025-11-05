@@ -1,5 +1,5 @@
 [
-  {
+    {
         "enunciado": "Quem escreveu 'Dom Quixote'?",
         "resposta1": {"texto": "Miguel de Cervantes", "correta": true},
         "resposta2": {"texto": "Gabriel García Márquez", "correta": false},
