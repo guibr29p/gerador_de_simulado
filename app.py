@@ -1,7 +1,7 @@
 import streamlit as st
 from dotenv import load_dotenv
 import pandas as pd
-from interfese import home, quetion
+from interfece import home, quetion
 import os
 
 load_dotenv()

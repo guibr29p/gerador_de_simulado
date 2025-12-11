@@ -1,3 +1,3 @@
-import selenium 
+from firecrawl import Firecrawl
 
-# possivel upada
+firecrawl = Firecrawl(api_key="fc-YOUR-API-KEY")

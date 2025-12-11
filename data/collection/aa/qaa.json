@@ -1,0 +1,192 @@
+[
+    {
+        "enunciado": "O que representa um Diagrama de Componentes?",
+        "resposta1": {
+            "texto": "Estrutura de classes",
+            "correta": false
+        },
+        "resposta2": {
+            "texto": "Interação entre usuários",
+            "correta": false
+        },
+        "resposta3": {
+            "texto": "Organização física e lógica dos componentes",
+            "correta": true
+        },
+        "resposta4": {
+            "texto": "Fluxo de dados",
+            "correta": false
+        }
+    },
+    {
+        "enunciado": "Qual é o objetivo principal do Diagrama de Casos de Uso?",
+        "resposta1": {
+            "texto": "Detalhar algoritmos",
+            "correta": false
+        },
+        "resposta2": {
+            "texto": "Representar requisitos funcionais",
+            "correta": true
+        },
+        "resposta3": {
+            "texto": "Descrever arquitetura de hardware",
+            "correta": false
+        },
+        "resposta4": {
+            "texto": "Definir padrões de codificação",
+            "correta": false
+        }
+    },
+    {
+        "enunciado": "Qual benefício da modelagem visual para sistemas complexos?",
+        "resposta1": {
+            "texto": "Aumenta a complexidade",
+            "correta": false
+        },
+        "resposta2": {
+            "texto": "Diminui margem de erros",
+            "correta": true
+        },
+        "resposta3": {
+            "texto": "Torna a documentação desnecessária",
+            "correta": false
+        },
+        "resposta4": {
+            "texto": "Elimina necessidade de testes",
+            "correta": false
+        }
+    },
+    {
+        "enunciado": "Em uma solicitação de mudança para “empréstimo de e‑books”, qual é a primeira ação recomendada?",
+        "resposta1": {
+            "texto": "Deploy imediato",
+            "correta": false
+        },
+        "resposta2": {
+            "texto": "Comunicar a equipe",
+            "correta": true
+        },
+        "resposta3": {
+            "texto": "Atualizar o site",
+            "correta": false
+        },
+        "resposta4": {
+            "texto": "Ignorar a solicitação",
+            "correta": false
+        }
+    },
+    {
+        "enunciado": "Qual ferramenta é usada para monitorar mudanças durante o controle de versão?",
+        "resposta1": {
+            "texto": "Sistema de tickets",
+            "correta": false
+        },
+        "resposta2": {
+            "texto": "Repositório Git",
+            "correta": true
+        },
+        "resposta3": {
+            "texto": "Editor de texto",
+            "correta": false
+        },
+        "resposta4": {
+            "texto": "Planilha Excel",
+            "correta": false
+        }
+    },
+    {
+        "enunciado": "Antes de aplicar uma mudança, o que deve ser feito para garantir a recuperação?",
+        "resposta1": {
+            "texto": "Deletar logs",
+            "correta": false
+        },
+        "resposta2": {
+            "texto": "Criar backup da versão anterior",
+            "correta": true
+        },
+        "resposta3": {
+            "texto": "Reiniciar o servidor",
+            "correta": false
+        },
+        "resposta4": {
+            "texto": "Mudar senha",
+            "correta": false
+        }
+    },
+    {
+        "enunciado": "Qual técnica de verificação de qualidade consiste em revisar o código ou documentação?",
+        "resposta1": {
+            "texto": "Teste de carga",
+            "correta": false
+        },
+        "resposta2": {
+            "texto": "Inspeção",
+            "correta": true
+        },
+        "resposta3": {
+            "texto": "Deploy automatizado",
+            "correta": false
+        },
+        "resposta4": {
+            "texto": "Refatoração",
+            "correta": false
+        }
+    },
+    {
+        "enunciado": "Qual tipo de teste verifica se a nova funcionalidade funciona conforme esperado?",
+        "resposta1": {
+            "texto": "Teste unitário",
+            "correta": false
+        },
+        "resposta2": {
+            "texto": "Teste de integração",
+            "correta": true
+        },
+        "resposta3": {
+            "texto": "Teste de regressão",
+            "correta": false
+        },
+        "resposta4": {
+            "texto": "Teste de aceitação",
+            "correta": false
+        }
+    },
+    {
+        "enunciado": "O que descreve o termo “verificação contínua” em desenvolvimento de software?",
+        "resposta1": {
+            "texto": "Testes somente no final",
+            "correta": false
+        },
+        "resposta2": {
+            "texto": "Revisões esporádicas",
+            "correta": false
+        },
+        "resposta3": {
+            "texto": "Avaliações frequentes durante o ciclo",
+            "correta": true
+        },
+        "resposta4": {
+            "texto": "Documentação única",
+            "correta": false
+        }
+    },
+    {
+        "enunciado": "Qual dos seguintes é um exemplo de artefato criado no Diagrama de Componentes?",
+        "resposta1": {
+            "texto": "Caso de uso",
+            "correta": false
+        },
+        "resposta2": {
+            "texto": "Classe Java",
+            "correta": false
+        },
+        "resposta3": {
+            "texto": "Módulo de pagamento",
+            "correta": true
+        },
+        "resposta4": {
+            "texto": "Script SQL",
+            "correta": false
+        }
+    }
+]

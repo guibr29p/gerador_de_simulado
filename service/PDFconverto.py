@@ -26,8 +26,7 @@ def extrect_text(caminho):
                     reader = PdfReader(File)
                     for pages in reader.pages:
                         text += pages.extract_text() or ""
-                
-                                
+                                           
     except FileExistsError:
         print("arquibo não encotrado")
     except Exception as e: 

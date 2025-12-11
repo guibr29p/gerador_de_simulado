@@ -1,16 +1,30 @@
 [
-    {
-        "enunciado": "Qual é a capital da França?",
-        "resposta1": {"texto": "Londres", "correta": false},
-        "resposta2": {"texto": "Berlim", "correta": false},
-        "resposta3": {"texto": "Paris", "correta": true},
-        "resposta4": {"texto": "Roma", "correta": false}
-    },
-    {
-        "enunciado": "Qual é o maior planeta do sistema solar?",
-        "resposta1": {"texto": "Terra", "correta": false},
-        "resposta2": {"texto": "Júpiter", "correta": true},
-        "resposta3": {"texto": "Saturno", "correta": false},
-        "resposta4": {"texto": "Marte", "correta": false}
-    }
+  {
+    "enunciado": "Qual é a capital da Argentina?",
+    "resposta1": { "texto": "Buenos Aires", "correta": true },
+    "resposta2": { "texto": "Córdoba", "correta": false },
+    "resposta3": { "texto": "Rosário", "correta": false },
+    "resposta4": { "texto": "Mendoza", "correta": false }
+  },
+  {
+    "enunciado": "Qual é o animal terrestre mais rápido do mundo?",
+    "resposta1": { "texto": "Guepardo", "correta": true },
+    "resposta2": { "texto": "Leopardo", "correta": false },
+    "resposta3": { "texto": "Cavalo", "correta": false },
+    "resposta4": { "texto": "Onça-pintada", "correta": false }
+  },
+  {
+    "enunciado": "Qual é o maior oceano da Terra?",
+    "resposta1": { "texto": "Oceano Atlântico", "correta": false },
+    "resposta2": { "texto": "Oceano Índico", "correta": false },
+    "resposta3": { "texto": "Oceano Pacífico", "correta": true },
+    "resposta4": { "texto": "Oceano Ártico", "correta": false }
+  },
+  {
+    "enunciado": "Quem desenvolveu a teoria da relatividade?",
+    "resposta1": { "texto": "Isaac Newton", "correta": false },
+    "resposta2": { "texto": "Albert Einstein", "correta": true },
+    "resposta3": { "texto": "Galileu Galilei", "correta": false },
+    "resposta4": { "texto": "Nikola Tesla", "correta": false }
+  }
 ]
